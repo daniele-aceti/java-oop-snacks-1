@@ -4,3 +4,5 @@ bin/Studente.class
 bin/AppStudente.class
 bin/ContoBancario.class
 bin/ContoBancarioApp.class
+bin/RegistroApp.class
+bin/RegistroStudenti.class
