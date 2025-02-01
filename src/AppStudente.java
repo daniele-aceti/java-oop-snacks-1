@@ -1,4 +1,4 @@
-public class App {
+public class AppStudente {
     public static void main(String[] args) {
        Studente print = new Studente("Anselmo", "Bitta", 24);
        print.stampaStudente();

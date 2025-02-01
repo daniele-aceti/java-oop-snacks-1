@@ -1,3 +1,6 @@
 .vscode/settings.json
 bin/App.class
 bin/Studente.class
+bin/AppStudente.class
+bin/ContoBancario.class
+bin/ContoBancarioApp.class
