@@ -1,10 +1,14 @@
+
 public class ContoBancarioApp {
+
     public static void main(String[] args) {
         ContoBancario contoCorrente = new ContoBancario(1222334);
-        System.out.println(contoCorrente.getsaldoConto());
-        contoCorrente.setDeposito(1000);
-        System.out.println(contoCorrente.getsaldoConto());
-        contoCorrente.setPrelievo(150);
-        System.out.println(contoCorrente.getsaldoConto());
+        contoCorrente.saldoCorrente();
+        contoCorrente.deposito(1000);
+        contoCorrente.saldoCorrente();
+        contoCorrente.prelievo(150);
+        contoCorrente.saldoCorrente();
+        contoCorrente.deposito(500);
+        contoCorrente.saldoCorrente();
     }
 }

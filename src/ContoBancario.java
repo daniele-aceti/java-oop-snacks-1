@@ -5,21 +5,24 @@ public class ContoBancario {
 
     private float saldo;
 
-
-    public ContoBancario (int numeroConto){
+    public ContoBancario(int numeroConto) {
         saldo = 0;
     }
 
-    public float getsaldoConto(){
+    public float getsaldoConto() {
         return saldo;
     }
 
-    public float setDeposito(float saldo){
-        this.saldo = saldo;
+    public float deposito(float saldo) {
+        this.saldo += saldo;
         return saldo;
     }
-    
-    public float setPrelievo (float saldo){
-       return  this.saldo -= saldo;
+
+    public float prelievo(float saldo) {
+        return this.saldo -= saldo;
+    }
+
+    public void saldoCorrente() {
+        System.out.println(saldo);
     }
 }
